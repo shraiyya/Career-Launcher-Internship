@@ -38,7 +38,7 @@ Using seaborn, analyse the correlation between the percentage changes in the fiv
 ![Image](https://www.aspiration.ai/machine-learning/internship/images/7.png)
  
 
-2.7 Volatility is the change in variance in the returns of a stock over a specific period of time.Do give the following documentation on volatility a read.
+2.7 Volatility is the change in variance in the returns of a stock over a specific period of time.Do give the following documentation<a href="https://www.investopedia.com/terms/v/volatility.asp"> on volatility</a> a read.
 You have already calculated the percentage changes in several stock prices. Calculate the 7 day rolling average of the percentage change of any of the stock prices, then compute the standard deviation (which is the square root of the variance) and plot the values.
 Note: pandas provides a rolling() function for dataframes and a std() function also which you can use.
 
@@ -56,6 +56,8 @@ Note: pandas provides a rolling() function for dataframes and a std() function a
 Plot the 21 day and 34 day Moving average with the average price and decide a Call ! 
 Call should be buy whenever the smaller moving average (21) crosses over longer moving average (34) AND the call should be sell whenever smaller moving average crosses under longer moving average. 
 One of the most widely used technical indicators.
+![Image](https://www.aspiration.ai/machine-learning/internship/images/9.png)
+
 2.10 Trade Calls - Using Bollinger Bands 
 Plot the bollinger bands for this stock - the duration of 14 days and 2 standard deviations away from the average 
 The bollinger bands comprise the following data points- 
@@ -66,5 +68,4 @@ Average Daily stock price.
 Bollinger bands are extremely reliable , with a 95% accuracy at 2 standard deviations , and especially useful in sideways moving market. 
 Observe the bands yourself , and analyse the accuracy of all the trade signals provided by the bollinger bands. 
 Save to a new csv file. 
-
-![Image](https://www.aspiration.ai/machine-learning/internship/images/9.png)
+![Image](https://www.aspiration.ai/machine-learning/internship/images/10.png)
