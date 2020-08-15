@@ -14,7 +14,7 @@ The data science problem was a a real life financial world issue related to stoc
 The modules were as follows:
 - **Module 1- Data Exploration Using Pandas**
 
- The tasks include ploting the daily volumes of a given stock ,comparing the percentage stem plot to it,documenting your analysis of the relationship b/t volume and daily percentage change.finding VWAP etc.
+ The tasks include ploting the daily volumes of a given stock ,comparing the percentage stem plot to it,documenting your analysis of the relationship between volume and daily percentage change , finding VWAP etc.
  
 - **Module 2- Plotting in Financial Markets**
 
