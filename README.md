@@ -6,7 +6,7 @@
 
 
 **Artificial Intelligence and Machine learning** are one of the fastest growing fields in the world today.Machine Learning means machines should be able to learn and adapt through experience .The Machine Learning Internship offered by Career Launcher was a **8 week** long internship consisting of 7 modules.
-The data science problem was based on a real life financial world.The students could choose an industry which is related to your discipline or any industry of your liking. On doing so, stock data of a company belonging to the industry you chose has to be downloaded as a csv file.
+The data science problem was a a real life financial world issue related to stocks.The students could choose an industry which was related to discipline or any industry of their liking. On doing so, stock data of a company belonging to the industry chosen had to be downloaded as a csv file.The stock which I used was Hindustan Unilever (HUL).
 
 ---
 
@@ -22,19 +22,19 @@ The tasks included analysing the correlation between daily returns of any 5 stoc
 
 - **Module 3- Regression - Beta Calculation**
 
-The tasks included ploting the appropriate trade calls for the given stock data by useing 21 day and 34 day moving averages to get the appropriate predictions for the calls, beta calculation,comparing the stock with gold prices etc.
+The tasks included ploting the appropriate trade calls for the given stock data by useing 21 day and 34 day moving averages to get the appropriate predictions for the calls, CAPM calculations,beta calculation,comparing the given stock with gold prices etc.
 
 - **Module 4- Algo Trading using Classification**
 
-The tasks included creation of the call column,training the model using various classifiers,plotting the cummalative returns in percent etc.
+The tasks included creation of the call column,training the model using various machine learning classifiers,plotting the cummalative returns in percent etc.
 
 - **Module 5- Modern Portfolio Theory**
 
-The tasks included making a portfolio using 4 different stocks ,calculation of the volatility and annual returns etc.
+The tasks included making a portfolio using 4 different stocks ,calculation of the volatility and mean expected annual return,preparing  a scatter plot for differing weights of the individual stocks etc.
 
 - **Module 6- Clustering for Diverse portfolio analysis**
 
-The tasks included making a portfolio using 30 different stocks ,calculation of the volatility, using KNN clustering to find stocks belonging to same cluster etc.
+The tasks included making a portfolio using 30 different stocks ,calculation of the volatility, using K Means clustering to classify each data point into a specific group etc.
 
 - **Module 7- Internship Report Finalization**
 
