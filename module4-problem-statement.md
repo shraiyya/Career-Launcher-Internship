@@ -1,7 +1,9 @@
 # Module 4:
 
+
 ## Trade Call Prediction using Classification
 In this module, we'd be covering the concept of classification and utilize our skills to solve the following queries – (Stock Price = Close Price)
+
 
 ## Problem Statements
 4.1 Import the csv file of the stock which contained the Bollinger columns as well.
@@ -12,6 +14,7 @@ Create a new column 'Call' , whose entries are -
 'Short' if the stock price is above the upper Bollinger band
 Now train a classification model with the 3 bollinger columns and the stock price as inputs and 'Calls' as output. Check the accuracy on a test set. (There are many classifier models to choose from, try each one out and compare the accuracy for each)
 Import another stock data and create the bollinger columns. Using the already defined model, predict the daily calls for this new stock.
+
 
 4.2 Now, we'll again utilize classification to make a trade call, and measure the efficiency of our trading algorithm over the past two years. For this assignment , we will use RandomForest classifier.
 Import the stock data file of your choice
@@ -27,3 +30,5 @@ i.e. Action [ i ] = 1 if Close[ i+1 ] > Close[ i ]
 i.e. Action [ i ] = (-1) if Close[ i+1 ] < Close[ i ]
 Construct a classification model with the 4 new inputs and 'Action' as target
 Check the accuracy of this model , also , plot the net cumulative returns (in %) if we were to follow this algorithmic model
+
+![Image](https://www.aspiration.ai/machine-learning/internship/images/14.png)
