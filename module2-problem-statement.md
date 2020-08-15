@@ -51,14 +51,14 @@ Note: pandas provides a rolling() function for dataframes and a std() function a
  
  
 
-2.9 Trade Calls - Using Simple Moving Averages. Study about moving averages here. 
+2.9 Trade Calls - Using Simple Moving Averages. Study about moving averages <a href="https://www.investopedia.com/terms/s/sma.asp">here</a>. 
  
 Plot the 21 day and 34 day Moving average with the average price and decide a Call ! 
 Call should be buy whenever the smaller moving average (21) crosses over longer moving average (34) AND the call should be sell whenever smaller moving average crosses under longer moving average. 
 One of the most widely used technical indicators.
 ![Image](https://www.aspiration.ai/machine-learning/internship/images/9.png)
 
-2.10 Trade Calls - Using Bollinger Bands 
+2.10 Trade Calls - Using  <a href="https://www.investopedia.com/terms/b/bollingerbands.asp">Bollinger Bands</a>  
 Plot the bollinger bands for this stock - the duration of 14 days and 2 standard deviations away from the average 
 The bollinger bands comprise the following data points- 
 The 14 day rolling mean of the closing price (we call it the average) 
