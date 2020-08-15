@@ -18,7 +18,8 @@ You'd find the head(), tail() and describe() functions to be immensely useful fo
 
 1.4 In a separate array , calculate the monthwise VWAP (Volume Weighted Average Price ) of the stock. 
 ( VWAP = sum(price*volume)/sum(volume) ) 
-To know more about VWAP , visit - VWAP definition 
+To know more about VWAP , visit - <a href="https://www.investopedia.com/terms/v/vwap.asp" target="_blank">VWAP definition</a>
+
 {Hint : Create a new dataframe column ‘Month’. The values for this column can be derived from the ‘Date” column by using appropriate pandas functions. Similarly, create a column ‘Year’ and initialize it. Then use the 'groupby()' function by month and year. Finally, calculate the vwap value for each month (i.e. for each group created).
 
 1.5Write a function to calculate the average price over the last N days of the stock price data where N is a user defined parameter. Write a second function to calculate the profit/loss percentage over the last N days.
