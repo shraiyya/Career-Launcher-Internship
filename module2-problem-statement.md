@@ -8,25 +8,48 @@ You should target to finish module 2, including the prerequisites, in 1-2 weeks.
 Plot the closing price of each of the days for the entire time frame to get an idea of what the general outlook of the stock is.
 Look out for drastic changes in this stock, you have the exact date when these took place, try to fetch the news for this day of this stock
 This would be helpful if we are to train our model to take NLP inputs.
+![Image](https://www.aspiration.ai/machine-learning/internship/images/1.png)
+
+
+
 
 2.2 A stem plot is a discrete series plot, ideal for plotting daywise data. It can be plotted using the plt.stem() function.
 
 Display a stem plot of the daily change in of the stock price in percentage. This column was calculated in module 1 and should be already available in week2.csv. Observe whenever there's a large change.
+
+
 2.3 Plot the daily volumes as well and compare the percentage stem plot to it. Document your analysis of the relationship between volume and daily percentage change. 
+![Image](https://www.aspiration.ai/machine-learning/internship/images/2.png)
+![Image](https://www.aspiration.ai/machine-learning/internship/images/3.png)
+ 
  
 2.4 We had created a Trend column in module 1. We want to see how often each Trend type occurs. This can be seen as a pie chart, with each sector representing the percentage of days each trend occurs. Plot a pie chart for all the 'Trend' to know about relative frequency of each trend. You can use the groupby function with the trend column to group all days with the same trend into a single group before plotting the pie chart. From the grouped data, create a BAR plot of average & median values of the 'Total Traded Quantity' by Trend type. 
+![Image](https://www.aspiration.ai/machine-learning/internship/images/4.png)
+![Image](https://www.aspiration.ai/machine-learning/internship/images/5.png)
+ 
  
 2.5 Plot the daily return (percentage) distribution as a histogram.
 Histogram analysis is one of the most fundamental methods of exploratory data analysis. In this case, it'd return a frequency plot of various values of percentage changes .
-2.6 We next want to analyse how the behaviour of different stocks are correlated. The correlation is performed on the percentage change of the stock price instead of the stock price. 
 
+
+2.6 We next want to analyse how the behaviour of different stocks are correlated. The correlation is performed on the percentage change of the stock price instead of the stock price. 
 Load any 5 stocks of your choice into 5 dataframes. Retain only rows for which ‘Series’ column has value ‘EQ’. Create a single dataframe which contains the ‘Closing Price’ of each stock. This dataframe should hence have five columns. Rename each column to the name of the stock that is contained in the column. Create a new dataframe which is a percentage change of the values in the previous dataframe. Drop Nan’s from this dataframe.
 Using seaborn, analyse the correlation between the percentage changes in the five stocks. This is extremely useful for a fund manager to design a diversified portfolio. To know more, check out these resources on correlation and diversification. 
+![Image](https://www.aspiration.ai/machine-learning/internship/images/7.png)
+ 
 
 2.7 Volatility is the change in variance in the returns of a stock over a specific period of time.Do give the following documentation on volatility a read.
 You have already calculated the percentage changes in several stock prices. Calculate the 7 day rolling average of the percentage change of any of the stock prices, then compute the standard deviation (which is the square root of the variance) and plot the values.
 Note: pandas provides a rolling() function for dataframes and a std() function also which you can use.
+
+
+
+
 2.8 Calculate the volatility for the Nifty index and compare the 2. This leads us to a useful indicator known as 'Beta' ( We'll be covering this in length in Module 3) 
+![Image](https://www.aspiration.ai/machine-learning/internship/images/8.png)
+ 
+ 
+ 
 
 2.9 Trade Calls - Using Simple Moving Averages. Study about moving averages here. 
  
@@ -43,3 +66,5 @@ Average Daily stock price.
 Bollinger bands are extremely reliable , with a 95% accuracy at 2 standard deviations , and especially useful in sideways moving market. 
 Observe the bands yourself , and analyse the accuracy of all the trade signals provided by the bollinger bands. 
 Save to a new csv file. 
+
+![Image](https://www.aspiration.ai/machine-learning/internship/images/9.png)
